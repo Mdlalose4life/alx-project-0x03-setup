@@ -1,9 +1,9 @@
-import Layouts from "@/components/layouts/Layout";
-
-export default function Home() {
+const Home = () => {
   return (
-    <div>
-      <Layouts/>
-    </div>
-  );
+   <div>
+    <h1> Welcome to Splash App </h1>
+   </div>
+   )
 }
+
+export default Home;
